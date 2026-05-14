@@ -1,20 +1,19 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 蛇吞象 - 經典貪食蛇
 
-# Run and deploy your AI Studio app
+經典的貪食蛇遊戲，支援鍵盤與手機觸控操作。
 
-This contains everything you need to run your app locally.
+## 如何執行
 
-View your app in AI Studio: https://ai.studio/apps/5ea0836c-d5be-4864-987b-6f2386cf69a6
+1. 安裝依賴：
+   ```bash
+   npm install
+   ```
+2. 啟動開發伺服器：
+   ```bash
+   npm run dev
+   ```
+3. 在瀏覽器中開啟顯示的網址（通常是 http://localhost:5173）。
 
-## Run Locally
-
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 遊戲控制
+- **鍵盤**：使用方向鍵控制蛇的移動，空格鍵暫停/繼續。
+- **手機**：使用螢幕上的方向按鈕或滑動螢幕來控制蛇的移動。
