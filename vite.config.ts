@@ -4,6 +4,7 @@ import path from 'path';
 import { defineConfig } from 'vite';
 
 export default defineConfig({
+  base: '/20260514_snake/',
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
@@ -11,3 +12,4 @@ export default defineConfig({
     },
   },
 });
+
