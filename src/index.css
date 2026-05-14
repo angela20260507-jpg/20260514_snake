@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Outfit:wght@400;700;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Outfit", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+@layer base {
+  body {
+    @apply antialiased overflow-hidden min-h-screen text-slate-100;
+    background: radial-gradient(circle at top left, #0f172a, transparent),
+                radial-gradient(circle at bottom right, #020617, transparent),
+                #000000;
+  }
+}
+
